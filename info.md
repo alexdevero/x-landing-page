@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # "Land.io" UI Kit + Landing Page (HTML)
 
 Landio is a responsive HTML template, built on top of [Bootstrap 4](http://v4-alpha.getbootstrap.com/) and based on the [Land.io Sketch design](http://tympanus.net/codrops/2015/09/16/freebie-land-io-ui-kit-landing-page-design-sketch/) by [Peter Finlan](http://peterfinlan.com/). This template and the UI kit were coded by [Taty Grassini](http://tatygrassini.github.io/).
@@ -42,4 +41,3 @@ Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www
 =======
 # x-landing-page
 X landing page is simple and beuatiful landing page for my projects.
->>>>>>> 4c559930eda54d056a829a620a9f6d1232e79943
