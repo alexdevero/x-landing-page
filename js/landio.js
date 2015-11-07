@@ -128,8 +128,9 @@
     });
   }
 
-  function scrollToTop() {
-    $('.scroll-top').on( 'click', function(){
+  function scrollToTop(e) {
+    $('.scroll-top').on( 'click', function(e){
+      e.preventDefault();
       $('html, body').animate({
         scrollTop: 0
       }, 1000);
@@ -207,11 +208,11 @@
     onScrollAnimations();
     inputPlaceholders();
     navMobileCollapse();
-    navSearch();
-    htmlVideo();
+    //navSearch();
+    //htmlVideo();
     scrollToTop();
-    donutChart();
-    videoModal();
+    //donutChart();
+    //videoModal();
   }
 
   init();

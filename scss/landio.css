@@ -3702,8 +3702,8 @@ a.bg-danger:focus, a.bg-danger:hover {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("fonts/icomoon.eot?-d8wcrs");
-  src: url("fonts/icomoon.eot?#iefix-d8wcrs") format("embedded-opentype"), url("fonts/icomoon.ttf?-d8wcrs") format("truetype"), url("fonts/icomoon.woff?-d8wcrs") format("woff"), url("fonts/icomoon.svg?-d8wcrs#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?-d8wcrs");
+  src: url("../fonts/icomoon.eot?#iefix-d8wcrs") format("embedded-opentype"), url("../fonts/icomoon.ttf?-d8wcrs") format("truetype"), url("../fonts/icomoon.woff?-d8wcrs") format("woff"), url("../fonts/icomoon.svg?-d8wcrs#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 .vjs-default-skin {
@@ -4347,7 +4347,7 @@ body {
 .jumbotron {
   padding-top: 7rem;
   margin-bottom: 0;
-  background: #663fb5 url(../images/rocker-hostile-886033.jpg) no-repeat top center;
+  background: #ee3b07 url(../images/dylan-luder--photo-flower.jpg) no-repeat top center;
   background-size: cover;
   border-radius: 0; }
   @media (max-width: 47.9em) {
@@ -5073,5 +5073,94 @@ figure {
 /*-------------------------------*\
   My Styles
 \*-------------------------------*/
+/*---------------------------------*\
+    Scrollbar hacks
+\*---------------------------------*/
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+  width: 10px; }
+
+::-webkit-scrollbar-track {
+  background: #ddd; }
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  height: 50px;
+  background: #222; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 300;
+  line-height: 1.2; }
+
+h2,
+h3,
+h4 {
+  margin: 1.414rem 0 0.5rem; }
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998rem; }
+
+h2 {
+  font-size: 2.827rem; }
+
+h3 {
+  font-size: 1.999rem; }
+
+h4 {
+  font-size: 1.414rem; }
+
+a,
+button {
+  transition: all .25s ease; }
+
+.jumbotron {
+  height: 100%; }
+
+.jumbotron .container {
+  position: relative;
+  z-index: 99; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); }
+
+section:nth-of-type(n+2) {
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+
+footer {
+  padding-top: 4.4rem;
+  padding-bottom: 3rem; }
+
+.sec--pitch {
+  overflow: hidden; }
+
+.btn-primary {
+  background-color: #ee3b07;
+  border-color: #df3707; }
+  .btn-primary:focus, .btn-primary:hover {
+    background-color: #b82d05;
+    border-color: #a92a05; }
+
+.bg-inverse .dropdown-item:focus,
+.bg-inverse .dropdown-item:hover {
+  color: #ee3b07; }
+
+.pricing-best {
+  border-color: #ee3b07; }
+
+.pricing-best .card-header {
+  background-color: #ee3b07; }
 
 /*# sourceMappingURL=landio.css.map */
